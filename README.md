@@ -7,7 +7,7 @@
 - Mission Control > 핫 코너 > (좌측 상단) 화면 보호기 시작
 - Mission Control > 핫 코너 > (우측 상단) 디스플레이 잠자기
 - 키보드 > 단축키 > 입력 소스 > 이전 입력 소스 선택 (command + space)
-- 키보드 > 단축키 > Spotlight > Spotlight 검색 보기 비활성화
+- 키보드 > 단축키 > Spotlight > Spotlight 검색 보기 (options + space)
 
 **Command Line:**
 - 숨김파일 보기
@@ -25,7 +25,7 @@ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 $ /bin/bash -c "$(curl -fsSL https://gist.githubusercontent.com/nrubin29/bea5aa83e8dfa91370fe83b62dad6dfa/raw/48f48f7fef21abb308e129a80b3214c2538fc611/homebrew_m1.sh)"
 $ eval $(/opt/homebrew/bin/brew shellenv)
 $ brew update
-$ brew tap caskroom/cask
+$ brew Tap homebrew/cask
 $ brew install git
 ```
 
